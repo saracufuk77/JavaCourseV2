@@ -16,6 +16,7 @@ public class Tasks {
 
     // create a method which will take int varargs as parameter, and return its average
     double getAverage(int... nums){
+
         return (double)getTotal(nums)/getLength(nums);
     }
 
