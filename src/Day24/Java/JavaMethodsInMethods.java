@@ -23,8 +23,9 @@ public class JavaMethodsInMethods {
 
     public static void main(String[] args) {
 
-        int maxMinDifference = getMaxMinDifference(1, 2, 3, 5, 4, 6, 10);
-        System.out.println(maxMinDifference);
+         int idfference = getMaxMinDifference(3,6,1,9,7,23);
+//        int maxMinDifference = getMaxMinDifference(1, 2, 3, 5, 4, 6, 10);
+        System.out.println(idfference);
 
     }
 }

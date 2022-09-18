@@ -24,9 +24,9 @@ public class JavaArrayListMethods {
 
         ArrayList<String> list3 = new ArrayList<>();
 
-        for (String s : list) {
+        for (String s : list2) {
             list3.add(s);
         }
-
+        System.out.println(list3);
     }
 }
