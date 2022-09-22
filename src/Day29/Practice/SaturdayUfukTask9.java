@@ -20,6 +20,7 @@ public class SaturdayUfukTask9 {
             Input: nums = [1]
             Output: 1
      */
+
     public static void main(String[] args) {
         int[] arr1 = {4,1,2,1,2};
         System.out.println("Input: nums = " + Arrays.toString(arr1));
