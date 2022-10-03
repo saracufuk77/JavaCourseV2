@@ -13,13 +13,16 @@ public class JavaMapComputeMethods {
         map.put("f", 60);
         map.put("g", 70);
 
-        System.out.println("map = " + map);
+        System.out.println(map);
+
+        System.out.println("a nin degeri: "+ map.get("a"));
 
 //        map.compute("h", (k,v) -> v+10);
 //        map.replace("b", map.get("b") + 20);
 //        map.put("c", map.get("c")+ 30);
 //
-        map.computeIfPresent("a", (k,v) -> v+10);
+        map.computeIfPresent("f",(a,s)->s+1);
+//        map.computeIfPresent("a", (k,v) -> v+10);
         map.computeIfAbsent("h", (k) -> 100);
 
         System.out.println(map);
