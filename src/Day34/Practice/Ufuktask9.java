@@ -25,6 +25,8 @@ public class Ufuktask9 {
         map1.put("spinach","dirt");
         map1.put("ice cream", "cherry");
 
+        System.out.println("map1 = " + map1);
+
         modify(map1);
     }
 

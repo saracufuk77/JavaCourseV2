@@ -16,11 +16,18 @@ public class JavaMapForEachMethod {
         map.put("f", 60);
         map.put("g", 70);
 
+        System.out.println("map = " + map);
+
+        System.out.println("keyset: "+map.keySet());
+
+        System.out.println("entry set: "+ map.entrySet());
+
         for(String key : map.keySet()){
             System.out.print(key + " = " + map.get(key) + "; ");
         }
         System.out.println();
         System.out.println("===================");
+
         for(Map.Entry<String, Integer> row : map.entrySet()){
             System.out.print(row.getKey() + " = " + row.getValue()+ "; ");
         }

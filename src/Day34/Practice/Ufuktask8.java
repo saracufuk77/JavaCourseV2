@@ -37,6 +37,7 @@ public class Ufuktask8 {
             count.put(str[i], count.getOrDefault(str[i],0)+1);
         }
         System.out.println("count = " + count);
+
         HashMap<String,Boolean> result=new HashMap<>();
         for(Map.Entry<String,Integer> row: count.entrySet()){
             if(row.getValue()>1){
