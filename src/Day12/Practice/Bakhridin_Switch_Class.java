@@ -40,7 +40,7 @@ public class Bakhridin_Switch_Class {
         }
         System.out.println(result);
 
-        System.out.println("Test");
+        System.out.println("Test1");
 
 
     }
