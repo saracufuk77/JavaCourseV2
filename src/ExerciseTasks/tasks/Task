@@ -1,0 +1,177 @@
+
+ Task #1
+         Create a method which will have as a parameter an array of strings.
+         Return a Map<String, Boolean> where each different string is a key and
+         its value is true if that string appears 2 or more times in the array.
+
+         Example:
+         ["a", "b", "a", "c", "b"]
+         Result:
+         {"a": true, "b": true, "c": false}
+
+ Task #2
+
+           Given a following Map:
+
+           HashMap<String, ArrayList<String>> map = new HashMap<>();
+           map.put("USA", new ArrayList(Arrays.asList("Boston","NewYork","San-Francisco")));
+           map.put("INDIA", new ArrayList(Arrays.asList("Bangalore","Mumbai","Delhi")));
+           map.put("UK", new ArrayList(Arrays.asList("Leicester","London","Birmingham")));
+
+           1. Create a method, which has ArrayList<String> and a Character as a parameters and a ArrayList<String> return type.
+           The method should modify list, so that it will remove all Cities from the list, which start with the Character.
+
+           2. Create a method, which has HashMap<String, ArrayList<String>> as a parameter and a return type.
+           The method should modify the map as follow:
+           if the country is USA, remove all cities from the list, that starts with S.
+           if the country is INDIA, remove all cities from the list, that starts with M.
+           if the country is UK, remove all cities from the list, that starts with B
+Task #3
+          Given a HashMap<String, String>.
+          The map has keys and values as follow:
+          {"spinach": "dirt", "ice cream": "cherry"}
+
+          Create a method with HashMap<String, String> parameter, return same type of map.
+          The method should modify the map as follow:
+
+          if the key is "ice cream", create a new key as "yogurt" and value should be the same as for "ice cream".
+          If the key is "spinach", change that value to "nuts".
+
+          Example:
+          {"spinach": "dirt", "ice cream": "cherry"}
+
+          Result:
+          {"yogurt": "cherry", "spinach": "nuts", "ice cream": "cherry"}
+Task #4
+            Rotate array in Java
+             Rotate an array of n elements to the right by k steps. For example, with
+             n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+Task #5
+            Given two strings s and t, determine if they are isomorphic.
+            Two strings are isomorphic if the characters in s can be replaced to get t.
+            For example,"egg" and "add" are isomorphic, "foo" and "bar" are not.
+
+Task#6
+          Create a method which will take a String as a parameter and return type is char.
+          This method should return a character which is mostly repeated.
+
+          Example:
+          String = "aaaabbacccccdddccaaaddddaac"
+          Output should be c.
+
+Task#7
+         Create a method which will take a String as a parameter and return type is char.
+         This method should return a character which is mostly consecutively repeated.
+
+         Example:
+         String = "aaaabbacccccdddccaaaddddaac"
+         Output should be c.
+
+         Explanation: c continuously / without breaking is repeated 5 times. more then a, b, or d.
+
+          note: This is a most recent interview question!!!
+
+Task #8
+        Given an array of Strings.
+        Create a method, that will sort this array of Strings in ascending order.
+
+Task#9
+        Rotate array in Java
+        Rotate an array of n elements to the right by k steps. For example, with
+        n = 7 and k = 3, the array [1,2,3,4,7,5,6] is rotated to [7,6,5,1,2,3,4]
+
+Task#10
+        Create a method which will take a String as a parameter and return type is char.
+        This method should return a character which is mostly consecutively repeated.
+
+        Example:
+        String = "aaaabbacccccdddccaaaddddaac"
+        Output should be c.
+
+        Explanation: c continuously / without breaking is repeated 5 times. more then a, b, or d.
+
+Task#11
+        Given an integer array nums, return true if any value appears at least twice in the array,
+        and return false if every element is distinct
+
+Task#12
+        Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number.
+        Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+        Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+
+        Input: numbers = [2,7,11,15], target = 9
+        Output: [1,2]
+
+        Input: numbers = [2,3,4], target = 6
+        Output: [1,3]
+
+Task#13
+        Sorting array using Loop in ascending order
+
+Task#14
+        Sorting array using Loop in descending order
+
+Task#15
+        Reverse the array using Loop
+
+Task#17
+         Example:
+               Input: Java is Fun
+               Output: Fun is Java
+
+Task#18
+        Create a method which will return boolean
+               If provided String is palindrome, return true. Else, return false.
+
+        Example:
+               Input: 123321
+               Output: true
+
+Task#19
+        Create a method which will return boolean
+               If provided Integer is palindrome, return true. Else, return false.
+
+        Example:
+               Input: 123321
+               Output: true
+
+Task#20
+        Example:
+        Input: Java is Fun 2005
+        Output:  4 + 2 + 3 + 4 = 13
+
+Task#21
+        Given an integer, write a function to determine if it a power of 2.
+
+Task#22
+-
+-
+-
+-
+
+Task#23
+        -   create class Numbers
+            -- create method named as "checkEvenNumber",which returns true if provided integer is even
+            -- create a method "evenNumbers" which will return all even number between 0 and 20
+
+        -   create class TestNumbers
+            -- create method to check "checkEvenNumber" method
+            -- create a method to check if "evenNumbers" method works as expected
+            -- add another three methods, to validate any other possible scenarios
+
+Task#24
+         Given two arrays of ints, array1 and array2.
+                 Print true if they have the same first element, or they have the same last element.
+                 Otherwise, print false
+                 Both arrays will be length 1 or more.
+
+            [1, 2, 3], [7, 3] → true
+            [1, 2, 3], [7, 3, 2] → false
+            [1, 2, 3], [1, 3] → true
+            [1, 2, 3], [1, 7, 5, 2] → true
+
+Task#25
+        Given non-empty array of Integers, every element is repeating except one number, return that number ;
+
+Task#26
+        Given non-empty array of Integers, every element is repeating except one number, return that number ;
