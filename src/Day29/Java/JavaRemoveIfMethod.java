@@ -23,12 +23,17 @@ public class JavaRemoveIfMethod {
                 i--;
             }
         }
-        System.out.println(list);
+        System.out.println("ikinci: "+list);
 
         // same task with removeIf ==> with Predicate
 
         list.add("New York");
         list.add("New Jersey");
+
+
+        list.removeIf(sss->(sss.length()>4)||(sss.startsWith("J")));
+        System.out.println("mehmet: "+list);
+
 
         list.removeIf((str) -> str.startsWith("N"));
         System.out.println(list);
@@ -39,6 +44,12 @@ public class JavaRemoveIfMethod {
         System.out.println(list2);
         list2.removeIf((number) -> number<30);
         System.out.println(list2);
+
+//        for (int i = 0; i < list2.size(); i++) {
+//            if(list2.get(i)<30){
+//                list2.remove(list2.get(i));
+//            }
+//        }
 
 
     }

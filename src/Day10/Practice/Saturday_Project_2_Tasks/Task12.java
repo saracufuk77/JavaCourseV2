@@ -6,7 +6,7 @@ public class Task12 {
 
     public static void main(String[] args) {
 
-                /*Task12
+        /*Task12
         *Create two strings. Check if the strings contain any upper case letters.
 If strings contain capital letters, return the total count of capital letters for both strings.
 if, one of the strings only contains capital letters, return the count of all characters for that string.
