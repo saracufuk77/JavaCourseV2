@@ -19,6 +19,9 @@ public class JavaMethodOverLoading {
         long total = getTotal(a, b, c);
     }
 
+    //In method overloading, we can produce different methods with same name. In order to achieve this, we need to change
+    //either return type, or paramaters types, or number of parameters.
+
     static int getTotal(int a, int b){
         return a+b;
     }

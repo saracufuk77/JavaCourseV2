@@ -22,6 +22,9 @@ public class ExampleJavaMapCompute {
         Integer a1 = map.get('z');
         System.out.println(a1);
 
+        Integer a2 = map.getOrDefault('z', 0);
+        System.out.println("z    "+a2);
+
         HashMap<Character, Integer> map2 = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
             map2.put(arr[i], map2.getOrDefault(arr[i], 0)+1);

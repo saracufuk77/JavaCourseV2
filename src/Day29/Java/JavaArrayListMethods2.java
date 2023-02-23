@@ -17,6 +17,7 @@ public class JavaArrayListMethods2 {
         list.remove(2);
         System.out.println(list);
         list.remove(100.55);
+
         System.out.println(list);
 
 

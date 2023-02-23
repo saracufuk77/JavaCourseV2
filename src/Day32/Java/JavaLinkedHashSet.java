@@ -16,8 +16,8 @@ public class JavaLinkedHashSet {
         HashSet<Integer> hs = new HashSet<>(Arrays.asList(5,2,1,0,9,7,6,5,4,3,-2));
         LinkedHashSet<Integer> ls = new LinkedHashSet<>(Arrays.asList(5,2,1,0,9,7,6,5,4,3,-2));
 
-        System.out.println(hs);
-        System.out.println(ls);
+        System.out.println("hs "+hs);
+        System.out.println("ls "+ls);
 
         for (Integer l : ls) {
             if(l<5){
